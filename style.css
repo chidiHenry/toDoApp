@@ -1,0 +1,40 @@
+#container{
+    text-align: center;
+}
+
+#todoForm{
+    align-content: center;
+    background-color: brown; 
+    margin-top: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: max-content;
+    margin: auto;
+    padding: 25px 45px;
+
+}
+
+#submitButton{
+display: flex;
+/* margin: auto; */
+margin-top: 15px;
+margin-left: 57px;
+
+}
+
+#todoForm input{
+    /* margin-top: 15px; */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    
+}
+#todoForm label{
+    display: block;
+    margin-bottom: 9px;
+    color: aliceblue;
+    text-align: center;
+}
+#dueDate{
+    padding: 10px;
+}
