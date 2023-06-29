@@ -1,0 +1,22 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "A to do app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidiHenry/toDoApp.git"
+  },
+  "author": "Chidi Emeribe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chidiHenry/toDoApp/issues"
+  },
+  "homepage": "https://github.com/chidiHenry/toDoApp#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
