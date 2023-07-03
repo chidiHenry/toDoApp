@@ -9,10 +9,31 @@
 </head>
 <body>
     
-    <div id="container">
-        <h3>To Do App</h3>
-   
-    </div>
+<div id="container">
+     <h3>To Do App</h3>
+<div id="todoForm">
+<Form id="myForm">
+    <input id='title' type = 'text' placeholder = 'Title'/>
+    <input id='description' type = 'text' placeholder = 'Description'/>
+    <input id='dueDate' type = 'date' placeholder = 'Due Date'/>
+    <select id="priority">
+        <label for="High"></label>
+        <option id="High" value="High">High</option>
+        <label for="Medium"></label>
+        <option id="Medium" value="Medium">Medium</option>
+        <label for="Low"></label>
+        <option id="Low" value="Low">Low</option>
+
+
+    </select>
     
+    <input type="submit" value="Add ToDo" id="submitButton">
+</Form>
+</div>
+    </div id>
+    <div id="toDoCard">
+    
+    </div>
+   
 </body>
 </html>

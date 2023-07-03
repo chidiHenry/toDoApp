@@ -1,4 +1,16 @@
-import toDo from "./toDo";
-import addTodo from "./addTodo";
 
-addTodo();
+import Render from "./Render";
+
+const myForm = document.querySelector('#myForm');
+myForm.onsubmit = function(e){
+    e.preventDefault();
+    Render();
+
+
+   
+}
+
+
+
+
+    
