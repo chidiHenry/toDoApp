@@ -38,3 +38,19 @@ margin-left: 57px;
 #dueDate{
     padding: 10px;
 }
+#toDoCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5px;
+    margin: 25px 25px 25px 50px;
+}
+
+#card{
+    padding: 12px 45px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: min-content;
+    background-color: purple;
+    color: #fff;
+    font-family: 'Playfair', serif;
+}
